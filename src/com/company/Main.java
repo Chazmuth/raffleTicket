@@ -64,8 +64,8 @@ public class Main {
         try {
             Integer amountOfTickets = Integer.valueOf(getInput());
             for (int i = 0; i <=amountOfTickets; i++) {
-                int randomTickets = random.nextInt(raffelTickets.size());
-
+                Integer randomTicketNumber = random.nextInt(raffelTickets.size());
+                if(raffelTickets)
             }
         }catch(Exception e){
             System.out.println("There was an error" + e);
